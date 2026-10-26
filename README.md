@@ -48,9 +48,9 @@ of the game, with **no cheats**: everything is cosmetic or a limit on your own i
 
 | | |
 | :---: | --- |
-| **1** | **[Download the latest release](../../releases/latest)** and unzip it anywhere. Keep `HamsterClient.exe` and `hamster.dll` together. |
-| **2** | In Cinnabar, open **Settings** and set **Graphics API** to **Automatic** or **DirectX 12**. |
-| **3** | Run **`HamsterClient.exe`**. It opens Cinnabar for you, or attaches if it's already running. |
+| **1** | **[Download `HamsterLauncher.exe`](../../releases/latest)** from the latest release and put it anywhere. |
+| **2** | Run it. The launcher downloads Hamster Client and keeps it up to date by itself. |
+| **3** | Press **Launch**. It opens Cinnabar for you (on DirectX 12, whatever your Graphics API setting) and loads the client. |
 | **4** | Press **`L`** in game to open the menu. You can change the key in **Settings**. |
 
 > [!NOTE]
@@ -78,8 +78,8 @@ running on top of it too. Play on servers that allow it.
 <details>
 <summary><b>The menu doesn't show up</b></summary>
 <br>
-Make sure Cinnabar's Graphics API is set to <b>Automatic</b> or <b>DirectX 12</b>, then run
-<code>HamsterClient.exe</code> again. If it still doesn't work, open an issue and attach
+Close Cinnabar and start it from <b>Hamster Launcher</b>, which runs the game on DirectX 12. If you
+opened Cinnabar yourself with its Graphics API set to Vulkan, the menu can't appear. If it still doesn't work, open an issue and attach
 <code>%APPDATA%\HamsterClient\hamster.log</code>.
 </details>
 
