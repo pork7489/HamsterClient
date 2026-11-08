@@ -50,7 +50,7 @@ of the game, with **no cheats**: everything is cosmetic or a limit on your own i
 | :---: | --- |
 | **1** | **[Download `HamsterLauncher.exe`](../../releases/latest)** from the latest release and put it anywhere. |
 | **2** | Run it. The launcher downloads Hamster Client and keeps it up to date by itself. |
-| **3** | Press **Launch**. It opens Cinnabar for you (on DirectX 12, whatever your Graphics API setting) and loads the client. |
+| **3** | Press **Launch**. It opens Cinnabar for you (on DirectX 12, whatever your Graphics API setting) with the Hamster mods loaded, then loads the client. |
 | **4** | Press **`L`** in game to open the menu. You can change the key in **Settings**. |
 
 > [!NOTE]
@@ -81,6 +81,20 @@ running on top of it too. Play on servers that allow it.
 Close Cinnabar and start it from <b>Hamster Launcher</b>, which runs the game on DirectX 12. If you
 opened Cinnabar yourself with its Graphics API set to Vulkan, the menu can't appear. If it still doesn't work, open an issue and attach
 <code>%APPDATA%\HamsterClient\hamster.log</code>.
+</details>
+
+<details>
+<summary><b>How do the modules work?</b></summary>
+<br>
+The menu and HUD are drawn by the client. Modules that change the game itself (time, weather, hurt
+color, hitboxes, nametags, post processing, camera shake, the CPS limiter) run as Cinnabar mods.
+The launcher installs them and starts Cinnabar with them already allowed, so there's nothing to
+approve in Settings → Mods, and your own mods keep working. Changing a setting in the menu applies
+in about half a second. The mods only load when Hamster Launcher starts the game, so if Cinnabar
+was already open, close it and press <b>Launch</b>.
+<br><br>
+Modules marked <b>N/A</b> need something Cinnabar doesn't let mods change yet. Their settings are
+kept, ready for when it does.
 </details>
 
 <details>
