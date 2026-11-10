@@ -1,31 +1,46 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Hamster Client: your game, your way" width="100%">
+  <img src="assets/banner.png" alt="hamster. client for Cinnabar" width="100%">
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="assets/download.png" alt="Download for Windows" width="320"></a>
+  <a href="../../releases/latest"><img src="assets/download.png" alt="Download Hamster Launcher" width="380"></a>
 </p>
 
 <p align="center">
-  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/pork7489/HamsterClient?style=for-the-badge&label=latest&color=2A9FD6&labelColor=16191E" alt="Latest version"></a>
-  <a href="../../releases"><img src="https://img.shields.io/github/downloads/pork7489/HamsterClient/total?style=for-the-badge&color=5B6CF0&labelColor=16191E" alt="Downloads"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%2F%2011-23272E?style=for-the-badge&labelColor=16191E" alt="Windows 10 and 11">
-  <img src="https://img.shields.io/badge/Cinnabar-0.1.28-23272E?style=for-the-badge&labelColor=16191E" alt="For Cinnabar 0.1.28">
+  <a href="../../releases/latest"><img src="https://img.shields.io/github/v/release/pork7489/HamsterClient?style=for-the-badge&label=latest&color=FFB59A&labelColor=2B1E19" alt="Latest version"></a>
+  <img src="https://img.shields.io/badge/Windows-10%20%2F%2011-4C352C?style=for-the-badge&labelColor=2B1E19" alt="Windows 10 and 11">
+  <img src="https://img.shields.io/badge/access-key%20only-4C352C?style=for-the-badge&labelColor=2B1E19" alt="Access key only">
 </p>
 
 <br>
 
 ## ✦ What is Hamster Client?
 
-Hamster Client is a quality-of-life add-on for [Cinnabar](https://cinnabar.gg/), the fast
-Bedrock Edition client. It adds a clean menu, a fully customizable HUD and visual tweaks on top
-of the game, with **no cheats**: everything is cosmetic or a limit on your own input.
+Hamster Client is a quality-of-life client for [Cinnabar](https://cinnabar.gg/), the fast
+Bedrock Edition client. It adds a cosy menu, a fully customizable HUD and a pile of visual
+tweaks on top of the game, with **no cheats**: everything is cosmetic or a limit on your own input.
+
+<p align="center">
+  <img src="assets/menu-all.png" alt="The Hamster menu, showing the enabled modules" width="100%">
+</p>
 
 <br>
 
-<p align="center">
-  <img src="assets/modules.png" alt="All modules" width="100%">
-</p>
+## ✦ What's new
+
+- **A brand new menu.** Round pills, a hamster peeking over the top, and tabs for
+  **Enabled · HUD · Render · Camera · Utility**. Switch between a grid and a list, or search.
+- **Fur themes.** Pick Peach, Butter, Mint, Sky, Lilac or Rose, or any color with the picker.
+  The whole menu and launcher recolor to match, not just the highlights.
+- **HUD editor.** Drag every HUD element where you want it, snap it to lines, or right-click
+  for fixed spots like top left or center bottom.
+- **Crosshair editor.** Paint your crosshair pixel by pixel with a palette and two color slots,
+  import a PNG, and make it inverted, chroma, or change color when you aim at something.
+- **UI size.** Make the menu bigger or smaller to suit your screen.
+- **New modules** that patch the game directly: **Fake Haste**, **View Bobbing**, **ItemSize**,
+  **Nickname**, **Nick Others** and **Glint Color**, plus **Zoom**, **Sword Blocking**,
+  **Status Effects**, **Text Hotkey** and **Command Hotkey**.
+- **Configs and Packs** live in the Pouch on the right, so they're one click away.
 
 <br>
 
@@ -38,20 +53,43 @@ of the game, with **no cheats**: everything is cosmetic or a limit on your own i
   </tr>
   <tr>
     <td align="center"><b>Make the HUD yours</b><br><sub>Fonts, colors, shadows, background and custom text for every element</sub></td>
-    <td align="center"><b>Draw your crosshair</b><br><sub>Paint it pixel by pixel or import your own <code>crosshair.png</code></sub></td>
+    <td align="center"><b>Draw your crosshair</b><br><sub>Paint it, import a PNG, or let it change color on target</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/menu-render.png" alt="Render modules"></td>
+    <td width="50%"><img src="assets/fur-mint.png" alt="The menu in the Mint fur theme"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Every module, one tap away</b><br><sub>Switch it on, or open its settings with the gear</sub></td>
+    <td align="center"><b>Pick your fur</b><br><sub>Six presets or any color you like</sub></td>
   </tr>
 </table>
 
 <br>
 
+## ✦ Modules
+
+| Tab | Modules |
+| --- | --- |
+| **HUD** | FPS Counter · CPS Counter · Coordinates · Status Effects |
+| **Render** | Custom Crosshair · Hurt Color · Glint Color · Time Changer · Weather Changer · Post Processing · Sword Blocking · Fake Haste · Hitboxes · ItemSize · Nametags |
+| **Camera** | Camera Shake · Zoom · View Bobbing |
+| **Utility** | CPS Limiter · Text Hotkey · Command Hotkey · Nickname · Nick Others |
+| **Soon** | GUI Scale |
+
+<br>
+
 ## ✦ Get started
+
+Hamster Client is invite only: you need an **access key** to use it.
 
 | | |
 | :---: | --- |
-| **1** | **[Download `HamsterLauncher.exe`](../../releases/latest)** from the latest release and put it anywhere. |
-| **2** | Run it. The launcher downloads Hamster Client and keeps it up to date by itself. |
-| **3** | Press **Launch**. It opens Cinnabar for you (on DirectX 12, whatever your Graphics API setting) with the Hamster mods loaded, then loads the client. |
-| **4** | Press **`L`** in game to open the menu. You can change the key in **Settings**. |
+| **1** | **Get a key.** Ask in the Hamster Discord. The Hamster bot DMs you a key like `HAM-XXXX-XXXX-XXXX-XXXX`. |
+| **2** | **[Download `HamsterLauncher.exe`](../../releases/latest)** from the latest release and put it anywhere. |
+| **3** | Run it and enter your key. The launcher downloads Hamster Client and keeps it up to date by itself. |
+| **4** | Press **Launch**. It opens Cinnabar for you with everything loaded. |
+| **5** | Press **`L`** in game to open the menu. You can change the key in **Settings**. |
 
 > [!NOTE]
 > Windows may show a "Windows protected your PC" screen the first time, because the app is new and
@@ -60,6 +98,14 @@ of the game, with **no cheats**: everything is cosmetic or a limit on your own i
 <br>
 
 ## ✦ FAQ
+
+<details>
+<summary><b>How do access keys work?</b></summary>
+<br>
+A key works on one PC. The first time you enter it, it's tied to that PC, and it lasts 7 days from
+then. When it runs out, ask for more time or a new key. If you reinstall Windows or move to a new
+PC, ask for your key to be reset.
+</details>
 
 <details>
 <summary><b>Is it a cheat?</b></summary>
@@ -78,23 +124,16 @@ running on top of it too. Play on servers that allow it.
 <details>
 <summary><b>The menu doesn't show up</b></summary>
 <br>
-Close Cinnabar and start it from <b>Hamster Launcher</b>, which runs the game on DirectX 12. If you
-opened Cinnabar yourself with its Graphics API set to Vulkan, the menu can't appear. If it still doesn't work, open an issue and attach
-<code>%APPDATA%\HamsterClient\hamster.log</code>.
+Close Cinnabar and start it from <b>Hamster Launcher</b>, which runs the game on DirectX 12. If it
+still doesn't work, send <code>%APPDATA%\HamsterClient\hamster.log</code> in the Discord.
 </details>
 
 <details>
-<summary><b>How do the modules work?</b></summary>
+<summary><b>A module says it isn't patched into this Cinnabar build yet</b></summary>
 <br>
-The menu and HUD are drawn by the client. Modules that change the game itself (time, weather, hurt
-color, hitboxes, nametags, post processing, camera shake, the CPS limiter) run as Cinnabar mods.
-The launcher installs them and starts Cinnabar with them already allowed, so there's nothing to
-approve in Settings → Mods, and your own mods keep working. Changing a setting in the menu applies
-in about half a second. The mods only load when Hamster Launcher starts the game, so if Cinnabar
-was already open, close it and press <b>Launch</b>.
-<br><br>
-Modules marked <b>N/A</b> need something Cinnabar doesn't let mods change yet. Their settings are
-kept, ready for when it does.
+Some modules hook into the game itself and need to know where things are in each Cinnabar version.
+That list updates every day, so after a Cinnabar update give it a day and start the game from
+Hamster Launcher again.
 </details>
 
 <details>
