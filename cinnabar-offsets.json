@@ -1,0 +1,75 @@
+{
+  "builds": [
+    {
+      "build_id": "A8D79F44998642428C749863CBBDE7851",
+      "version": "0.2.1",
+      "commit": "e55f8e9d4a57f319f8add90b129316d2ad2cd5d9",
+      "functions": {
+        "chat_push_batch": 102235232,
+        "create_shader_module": 112253440,
+        "dropped_items_into": 49955376,
+        "hand_motion_matrix": 42715376,
+        "legacy_bob_matrix": 93583744,
+        "player_list_roster": 49958704,
+        "sync_local_swing": 605632,
+        "tag_text": 48946640
+      }
+    },
+    {
+      "build_id": "1E9F3BB046E04043B9BD282F5924B6F91",
+      "version": "0.2.1",
+      "commit": "ba9516d01fe41d98d3126577d02b145f5a658601",
+      "functions": {
+        "cape_request": 731280,
+        "chat_push_batch": 103256496,
+        "cosmetics_cached": 66399376,
+        "create_shader_module": 113287312,
+        "hand_motion_matrix": 42939968,
+        "home_footer": 76595232,
+        "legacy_bob_matrix": 94569296,
+        "oreui_button": 76518496,
+        "player_list_roster": 50380752,
+        "sync_local_swing": 605632,
+        "tag_text": 49357808
+      }
+    },
+    {
+      "build_id": "6C80D44BB10640B7B8B2E1CDA38716611",
+      "version": "0.2.1",
+      "commit": "0882bd81a0849e41c8aa74e1dce6ce6d3d7fcb15",
+      "functions": {
+        "cape_request": 734656,
+        "chat_push_batch": 104371920,
+        "cosmetics_cached": 66947728,
+        "create_shader_module": 114385872,
+        "hand_motion_matrix": 43428496,
+        "home_footer": 77088224,
+        "legacy_bob_matrix": 95770144,
+        "oreui_button": 77010784,
+        "player_list_roster": 50905952,
+        "sync_local_swing": 608432,
+        "tag_text": 49876496
+      }
+    },
+    {
+      "build_id": "0F5EBCC8E889467AB1CBD593D57470E51",
+      "version": "0.2.1",
+      "commit": "f87ee9da9cab0943c68cba787a505ec86b9e397e",
+      "functions": {
+        "cape_request": 730192,
+        "chat_push_batch": 101435760,
+        "cosmetics_cached": 65179904,
+        "create_shader_module": 111446400,
+        "dropped_items_into": 49637456,
+        "hand_motion_matrix": 42466912,
+        "home_footer": 75263136,
+        "home_link": 75095312,
+        "legacy_bob_matrix": 92785760,
+        "oreui_button": 75188048,
+        "player_list_roster": 49640784,
+        "sync_local_swing": 605616,
+        "tag_text": 48629264
+      }
+    }
+  ]
+}
